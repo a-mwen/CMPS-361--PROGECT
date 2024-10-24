@@ -1,0 +1,136 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+/* Login Page Styles */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto; /* This can remain as is */
+}
+
+.login-form {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 300px;
+    text-align: center;
+}
+.login-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+    color: #666;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.login-form .remember-me {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.login-form .remember-me input {
+    margin-right: 5px;
+}
+
+.login-form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+.login-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Welcome Page Styles */
+.welcome-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.welcome-message {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 300px;
+}
+
+.welcome-message h2 {
+    font-size: 24px; /* Same size as login form for consistency */
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.welcome-message p {
+    color: #666;
+    margin-bottom: 20px;
+    line-height: 1.6; /* Improve readability */
+}
+
+.welcome-message a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    display: inline-block; /* Add block display for easier clicking */
+    margin: 10px 0; /* Add margin for spacing */
+}
+
+.welcome-message a:hover {
+    text-decoration: underline;
+}
+
+.welcome-message button {
+    background-color: #dc3545; /* Logout button color */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px; /* Space between logout button and link */
+}
+
+.welcome-message button:hover {
+    background-color: #c82333; /* Darker shade on hover */
+}
+
+/* Additional Styles */
+button {
+    cursor: pointer;
+}

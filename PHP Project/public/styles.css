@@ -1,0 +1,178 @@
+/* Product Page Styles */
+.product-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4; /* Match background color */
+}
+
+.product-container h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Eliminate double borders */
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #ddd; /* Light border */
+}
+
+th {
+    background-color: #007bff; /* Header background color */
+    color: white; /* Header text color */
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Zebra striping */
+}
+
+tr:hover {
+    background-color: #e9ecef; /* Highlight on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    table {
+        font-size: 14px; /* Smaller font for small screens */
+    }
+
+    th, td {
+        padding: 10px; /* Less padding for small screens */
+    }
+}
+/* Pagination Styles */
+.pagination {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.pagination a {
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 0 5px;
+    background-color: #007bff; /* Change this color as needed */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.pagination a:hover {
+    background-color: #0056b3; /* Darker shade for hover */
+}
+
+.pagination a.active {
+    background-color: #0056b3; /* Highlight current page */
+}
+
+/* Back Button Styles */
+.back-button {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.back-link {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.back-link:hover {
+    background-color: #0056b3; 
+}
+a {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 600px) {
+    a {
+        font-size: 14px;
+    }
+}
+
+/* Add Product Page Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px; /* Max width for the form */
+    margin: 20px auto; /* Center the form horizontally */
+    padding: 20px;
+    background-color: #ffffff; /* White background for the form */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+form label {
+    margin-bottom: 8px;
+    font-weight: bold; 
+    color: #333; /* Label text color */
+}
+
+form input[type="text"],
+form input[type="number"],
+form textarea {
+    padding: 10px;
+    margin-bottom: 15px; 
+    border: 1px solid #ccc; /* Light border for inputs */
+    border-radius: 4px; /* Rounded corners for inputs */
+    width: 100%; /* Full width */
+    box-sizing: border-box; 
+}
+
+form textarea {
+    resize: vertical; /* Allow vertical resizing of the textarea */
+    height: 100px; /* Set a default height for the textarea */
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Button background color */
+    color: white;
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size for button */
+}
+
+form button:hover {
+    background-color: #0056b3; 
+}
+
+/* Back Button Styles */
+.back-button {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.back-link {
+    padding: 10px 20px;
+    background-color: #007bff; /* Change this color as needed */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.back-link:hover {
+    background-color: #0056b3; /* Darker shade for hover */
+}
